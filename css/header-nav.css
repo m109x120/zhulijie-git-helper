@@ -1,0 +1,75 @@
+/*header-nav begin*/
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    z-index: 9999;
+}
+#header .logo {
+    float: left;
+    padding-left: 6px;
+    font-size: 22px;
+    font-weight:400;
+}
+#header .logo a{
+    position: relative;
+}
+#header .logo span{
+    position: absolute;
+    left: -10px;
+    top:-30px;
+    width: 60px;
+    font-size: 14px;
+    opacity:0;
+}
+#header .logo a:hover {
+    color: #555;
+}
+#header nav {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.dairy>a:hover .dairy-menu{
+    height: 120px;
+    opacity: 1;
+}
+#nav-list {
+    float: left;
+    margin-left: 50px;
+    background: url(../images/spirit.png) 0px 0px no-repeat;
+}
+#nav-list li {
+    float: left;
+    width: 100px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin-right: 15px;
+}
+#nav-list a{
+    display: block;
+    width: 100px;
+    height: 60px;
+}
+#header .sub-menu {
+    position: relative;
+}
+#header .dairy-menu {
+    position:absolute;
+    top:60px;
+    left:0px;
+    height:0px;
+    width:100%;
+    background: #3690CF;
+    opacity:0;
+    /*注意不加overflow会出现没有展开就出现文字的bug*/
+    overflow: hidden;
+}
+/*header-nav end*/
