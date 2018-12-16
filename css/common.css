@@ -67,6 +67,19 @@ a:hover {
 .f_r {
     float: right;
 }
-.content {
-  padding-top: 80px;
+.content{
+  width: 80%;
+  padding: 0 10%;
+  margin-top: 61px; 
+}
+footer{
+  content: '';
+  clear: both;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  background: lightgreen;
+}
+a,a:hover{
+  text-decoration: none;
 }

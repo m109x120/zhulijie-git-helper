@@ -1,0 +1,106 @@
+a:hover{
+  text-decoration: none!important;
+}
+.content{
+  width:100%;
+  .left{
+    display: inline-block;
+    width: 30%;
+    display: border-box;
+    .item1{
+      height:300px;
+      border:1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom:10px;
+    }
+    .item2{
+      height:150px;
+      border:1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom:10px;
+    }
+    .item3{
+      height:300px;
+      border:1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom:10px;
+    }
+  }
+  .right {
+    display: inline-block;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    vertical-align: top;
+    width:69%;
+    position: relative;
+    padding:10px;
+    &>nav{
+      text-align: center;
+    }
+    .publicationList li {
+      padding:10px;
+      border-bottom:1px dashed #ccc;
+      a{
+        &:hover{
+          text-decoration: none;
+        }
+        display: block;
+        .itemImg{
+          float: left;
+          margin-right:10px;
+          border:1px solid #ccc;
+          padding:4px;
+          border-radius: 5px;
+          &:hover{
+            border-color:red;
+          }
+          img {
+            width:80px;
+            border-radius: 5px;
+          }
+          .noPicUrl {
+            display: inline-block;
+            width:80px;
+            height:108px;
+            line-height: 108px;
+            text-align: center;
+            border-radius: 5px;
+            border-radius: 1px solid #ccc;
+          }
+        }
+        .itemDetail {
+          h3{
+            white-space: nowrap;
+            color: #7c7c7c;
+            font-size: 14px;
+            font-weight: bold;
+            .publicationTitle{
+              text-align: left;
+              display: inline-block;
+              width: 50%;
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;
+            }
+            time {
+              float: right;
+              text-align: right;
+            }
+          }
+          p{
+            text-align: left;
+          }
+        }
+      }
+    }
+    .paginationInfo{
+      nav{
+        .totalInfo{
+          float: right;
+          vertical-align: middle;
+          line-height: 75px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.content{
+    width: 80%;
+    padding: 0 10%;
+    margin-top: 61px; 
+    background: #fff;
+ }
+ .content .navtitle{
+     font-size: 28px;
+     height: 50px;
+     line-height: 50px;
+     color: #8c0000;
+     border-bottom: 2px solid #dfe0e4;
+ }
+ .member{
+     border-bottom: 1px solid #dfe0e4;
+ }
+ .member .memberitem{
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    color: #8c0000;
+ }
+.member ul li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 70px;
+}
+.member ul li a{
+  display: inline-block;
+  padding: 2px;
+  border:1px solid #ccc;
+  border-radius: 50%;
+}
+.member ul li span{
+    padding: 10px 0 20px 0;
+    display: block;
+}
+.member ul li img{
+    border-radius: 50%;
+}

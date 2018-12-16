@@ -1,0 +1,100 @@
+a:hover {
+  text-decoration: none!important;
+}
+.content {
+  width: 100%;
+}
+.content .left {
+  display: inline-block;
+  width: 30%;
+  display: border-box;
+}
+.content .left .item1 {
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.content .left .item2 {
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.content .left .item3 {
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.content .right {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  vertical-align: top;
+  width: 69%;
+  position: relative;
+  padding: 10px;
+}
+.content .right > nav {
+  text-align: center;
+}
+.content .right .publicationList li {
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+.content .right .publicationList li a {
+  display: block;
+}
+.content .right .publicationList li a:hover {
+  text-decoration: none;
+}
+.content .right .publicationList li a .itemImg {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 5px;
+}
+.content .right .publicationList li a .itemImg:hover {
+  border-color: red;
+}
+.content .right .publicationList li a .itemImg img {
+  width: 80px;
+  border-radius: 5px;
+}
+.content .right .publicationList li a .itemImg .noPicUrl {
+  display: inline-block;
+  width: 80px;
+  height: 108px;
+  line-height: 108px;
+  text-align: center;
+  border-radius: 5px;
+  border-radius: 1px solid #ccc;
+}
+.content .right .publicationList li a .itemDetail h3 {
+  white-space: nowrap;
+  color: #7c7c7c;
+  font-size: 14px;
+  font-weight: bold;
+}
+.content .right .publicationList li a .itemDetail h3 .publicationTitle {
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .right .publicationList li a .itemDetail h3 time {
+  float: right;
+  text-align: right;
+}
+.content .right .publicationList li a .itemDetail p {
+  text-align: left;
+}
+.content .right .paginationInfo nav .totalInfo {
+  float: right;
+  vertical-align: middle;
+  line-height: 75px;
+}
