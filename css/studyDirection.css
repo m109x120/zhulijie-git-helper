@@ -114,3 +114,10 @@ a:hover {
   outline: none;
   font-family: "微软雅黑";
 }
+.content .right .selYear option {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+  background: #77bc1f;
+  color: #fff;
+}

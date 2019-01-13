@@ -29,12 +29,12 @@
   display: inline-block;
   padding: 2px;
   border:1px solid #ccc;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 .member ul li span{
     padding: 10px 0 20px 0;
     display: block;
 }
 .member ul li img{
-    border-radius: 50%;
+    border-radius: 10px;
 }
