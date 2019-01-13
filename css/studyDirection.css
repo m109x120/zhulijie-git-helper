@@ -3,6 +3,7 @@ a:hover {
 }
 .content {
   width: 100%;
+  position: relative;
 }
 .content .left {
   display: inline-block;
@@ -35,6 +36,8 @@ a:hover {
   width: 69%;
   position: relative;
   padding: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 .content .right > nav {
   text-align: center;
@@ -93,8 +96,21 @@ a:hover {
 .content .right .publicationList li a .itemDetail p {
   text-align: left;
 }
+.content .right .publicationList .hasNoData {
+  text-align: center;
+  padding-top: 35px;
+}
 .content .right .paginationInfo nav .totalInfo {
   float: right;
   vertical-align: middle;
   line-height: 75px;
+}
+.content .right .selYear {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  border: 0px none;
+  outline: none;
+  font-family: "微软雅黑";
 }

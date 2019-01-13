@@ -3,6 +3,7 @@ a:hover{
 }
 .content{
   width:100%;
+  position: relative;
   .left{
     display: inline-block;
     width: 30%;
@@ -34,10 +35,13 @@ a:hover{
     width:69%;
     position: relative;
     padding:10px;
+    padding-top: 30px;
+    padding-left: 30px;
     &>nav{
       text-align: center;
     }
-    .publicationList li {
+    .publicationList{
+      li {
       padding:10px;
       border-bottom:1px dashed #ccc;
       a{
@@ -92,6 +96,11 @@ a:hover{
           }
         }
       }
+      }
+      .hasNoData {
+        text-align: center;
+        padding-top: 35px;
+      }
     }
     .paginationInfo{
       nav{
@@ -101,6 +110,15 @@ a:hover{
           line-height: 75px;
         }
       }
+    }
+    .selYear{
+      position: absolute;
+      top:10px;
+      left:10px;
+      z-index: 9999;
+      border: 0px none;
+      outline: none;
+      font-family: "微软雅黑";
     }
   }
 }
