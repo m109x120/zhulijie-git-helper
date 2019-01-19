@@ -59,8 +59,8 @@
     right: 0;
 }
 .bannerBottom .bottomItem {
-    height: 100px;
     float: left;
+    height: 100px;
     display: inline-block;
     position: absolute;top: 0;
     left: 0;
