@@ -1,0 +1,11 @@
+.content .title {
+  text-align: center;
+}
+.content p {
+  text-indent: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content img {
+  margin: 0 auto;
+}
