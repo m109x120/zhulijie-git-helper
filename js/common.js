@@ -14,6 +14,7 @@ function getNav(obj,id){
             '    </h1>\n' +
             '    <ul id="nav-list" class="clearfix">\n' +
             '      <li class="nav-router"><a href="index.html">首页</a></li>\n' +
+            '      <li class="nav-router"><a href="html/zhangyanfeng.html">张艳锋</a></li>\n'+
             '      <li class="nav-router"><a href="html/studyDirection.html">学术成果</a></li>\n' +
             '      <li class="nav-router"><a href="html/members.html">课题组成员</a></li>\n' +
             '      <li class="dairy sub-menu nav-router">\n' +

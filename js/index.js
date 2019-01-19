@@ -3,5 +3,4 @@ $(function() {
   var oHeader = $('#header');
   getNav(oHeader, 0);
   // 菜单初始化结束
-  // ymx
 });

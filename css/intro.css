@@ -1,6 +1,5 @@
 .content {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 .content .avaturPic {
   float: right;
@@ -19,9 +18,7 @@
 }
 .content p {
   text-indent: 2em;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
-.content img {
-  margin: 0 auto;
+.content ul li {
+  padding: 5px 0;
 }
