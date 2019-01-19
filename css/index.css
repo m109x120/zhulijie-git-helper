@@ -156,3 +156,6 @@
 .news ul li span{
     float: right;
 }
+img {
+  width: 100%;
+}

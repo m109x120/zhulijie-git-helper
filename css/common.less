@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* css */
+* { margin: 0; padding: 0 }
+/*版心*/
+.wrapper {
+    width:1200px;
+    margin: 0 auto;
+}
+/*双伪元素清除浮动*/
+.clearfix:after,.clearfix:before{
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+/*body的默认样式*/
+body {
+    font: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    color: #555;
+    background: #efefef;
+    line-height: 1.5;
+}
+/*img默认边框以及3pxbug修复*/
+img {
+    border: 0;
+    display: block;
+}
+/*列表默认样式的清除*/
+ul, li {
+    list-style: none;
+}
+/*a的默认样式的设定*/
+a {
+    text-decoration: none;
+    color: #444;
+}
+/*a的hover默认样式的设定*/
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.clear { clear: both; }
+.blank { height: 20px; overflow: hidden; width: 100%; margin: auto; clear: both }
+/*左右浮动*/
+.f_l {
+    float: left;
+}
+.f_r {
+    float: right;
+}
+.content{
+  width: 80%;
+  padding: 0 10%;
+  margin-top: 61px; 
+}
+footer{
+  content: '';
+  clear: both;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  background: lightgreen;
+}
+a,a:hover{
+  text-decoration: none;
+}
+/* footer公共区域的样式 */
+footer {
+  width: 100%;
+  text-align: center;
+  height:100%;
+  padding: 20px 0;
+  background: #ccc;
+  .footerPaddingRight{
+    margin-right: 40px;
+  }
+}

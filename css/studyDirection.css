@@ -11,22 +11,39 @@ a:hover {
   display: border-box;
 }
 .content .left .item1 {
-  height: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+.content .left .item1 .leftTitle {
+  margin-top: 0px;
+  background: #ccc;
+  padding: 10px;
+  font-size: 20px;
+}
+.content .left .item1 ul {
+  padding: 10px;
+}
+.content .left .item1 ul li {
+  border-bottom: 1px dashed #ccc;
+  padding: 5px;
 }
 .content .left .item2 {
-  height: 150px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 10px;
 }
-.content .left .item3 {
-  height: 300px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
+.content .left .item2 .leftTitle {
+  margin-top: 0px;
+  background: #ccc;
+  padding: 10px;
+  font-size: 20px;
+}
+.content .left .item2 ul {
+  padding: 10px;
+}
+.content .left .item2 ul li {
+  border-bottom: 1px dashed #ccc;
+  padding: 5px;
 }
 .content .right {
   display: inline-block;

@@ -49,6 +49,7 @@ a{
 .img-wrap img{
     margin: 0 auto;
     padding-bottom: 15px;
+    width: 80%;
 }
 .img-wrap span{
 	  line-height: 20px;
