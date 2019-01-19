@@ -11,128 +11,22 @@ $(function() {
       // 按照id进行排序
       id:'0',
       picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
+      aHref: 'https://onlinelibrary.wiley.com/doi/10.1002/adma.201704839',
+      publicationTitle:'1.	Yue Qi, Bing Deng, Xiao Guo, Shulin Chen, Jing Gao, Tianran Li, Zhipeng Dou,Haina Ci, Jingyu Sun, Zhaolong Chen, Ruoyu Wang, Lingzhi Cui, Xudong Chen, Ke Chen, Huihui Wang, Sheng Wang, Peng Gao, Mark H. Rummeli, Hailin Peng, Yanfeng Zhang,* and Zhongfan Liu*, Switching Vertical to Horizontal Graphene Growth Using Faraday Cage-Assisted PECVD Approach for High-Performance Transparent Heating DeviceAdv. Mater. 2018, 1704839(1-9).',
       time:'2018.12.05',
       year: '2018',
       publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
     },
     {
       // 按照id进行排序
-      id:'1',
-      picUrl:'',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
+      id:'0',
+      picUrl:'../images/publicationLists/1.jpg',
+      aHref: 'https://onlinelibrary.wiley.com/doi/10.1002/adma.201704839',
+      publicationTitle:'2.	Pengfei Yang, Xiaolong Zou, Zhepeng Zhang, Min Hong, Jianping Shi, Shulin Chen, Jiapei Shu, Liyun Zhao, Shaolong Jiang, Xiebo Zhou, Yahuan Huan, Chunyu Xie, Peng Gao, Qing Chen, Qing Zhang, Zhongfan Liu, Yanfeng Zhang*, Batch production of 6-inch uniform monolayer molybdenum disulfide catalyzed by sodium in glass, Nature Commun. 2018, 9, 979 (1-10).',
       time:'2018.12.05',
       year: '2018',
       publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
     },
-    {
-      // 按照id进行排序
-      id:'2',
-      picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2018',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'3',
-      picUrl:'',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year:'2018',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'4',
-      picUrl:'',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2018',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'5',
-      picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2019',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'6',
-      picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2016',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'7',
-      picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2016',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'8',
-      picUrl:'',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2019',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'9',
-      picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2019',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'10',
-      picUrl:'',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2019',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'11',
-      picUrl:'',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2017',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'12',
-      picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2017',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    },
-    {
-      // 按照id进行排序
-      id:'13',
-      picUrl:'../images/publicationLists/1.jpg',
-      publicationTitle:'Biomacromolecules 2018, DOI:10.1021/acs.biomac.8b00190.',
-      time:'2018.12.05',
-      year: '2017',
-      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
-    }
   ];
   // 对数组进行排序，改变原数组
   pubArr.sort((a,b)=>{

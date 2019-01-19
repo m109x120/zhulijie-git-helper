@@ -87,8 +87,8 @@
 <ul class="publicationList">
   {{each list as value}}
   <li>
-    <a href="javascript:;" class="clearfix">
-      <div class="itemImg">
+    <a href="{{value.aHref}}" class="clearfix">
+      <!-- <div class="itemImg">
         {{if value.picUrl}}
           <img src="{{value.picUrl}}" alt="">
         {{else}}
@@ -96,7 +96,7 @@
           暂无缩略图
           </span>
         {{/if}}
-      </div>
+      </div> -->
       <div class="itemDetail">
         <h3><span class="publicationTitle">{{value.id}}.{{value.publicationTitle}}</span><time>{{value.time}}</time></h3>
         <p>{{value.publicationPro}}</p>
@@ -105,7 +105,7 @@
   </li>
   {{/each}}
   {{ if !list.length}}
-    <li class="hasNoData">没有数据</li>
+    <li class="hasNoData">没有相关文献</li>
   {{/if}}
 </ul>
 </script>
