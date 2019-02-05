@@ -30,12 +30,10 @@
     <div class="item1">
       <h3 class="leftTitle">Acknowledgements</h3>
       <ul>
-        <li>科技部863计划</li>
-        <li>科技部863计划</li>
-        <li>科技部863计划</li>
-        <li>科技部863计划</li>
-        <li>科技部863计划</li>
-        <li>科技部863计划</li>
+        <li><a href=""  target="view_window">科技部863计划</a></li>
+        <li>世上无难事，只要肯攀登！</li>
+        <li>越努力，越幸运！</li>
+        <li>2019年要加油哦！</li>
       </ul>
     </div>
     <div class="item2">
@@ -72,6 +70,11 @@
         <option value="2017">2017</option>
         <option value="2016">2016</option>
         <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+        <option value="2010">2010</option>
       </select>
     </div>
   </div>
@@ -87,7 +90,7 @@
 <ul class="publicationList">
   {{each list as value}}
   <li>
-    <a href="{{value.aHref}}" class="clearfix">
+    <a href="{{value.aHref}}" class="clearfix" target="view_window">
       <!-- <div class="itemImg">
         {{if value.picUrl}}
           <img src="{{value.picUrl}}" alt="">
@@ -98,8 +101,8 @@
         {{/if}}
       </div> -->
       <div class="itemDetail">
-        <h3><span class="publicationTitle">{{value.id}}.{{value.publicationTitle}}</span><time>{{value.time}}</time></h3>
-        <p>{{value.publicationPro}}</p>
+        <h3><span class="publicationTitle">{{value.id}}.{{value.publicationTitle}}</span><time>{{value.year}}</time></h3>
+        <!-- <p>{{value.publicationPro}}</p> -->
       </div>
     </a>
   </li>

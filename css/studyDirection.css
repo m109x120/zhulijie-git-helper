@@ -93,7 +93,7 @@ a:hover {
   border-radius: 1px solid #ccc;
 }
 .content .right .publicationList li a .itemDetail h3 {
-  white-space: nowrap;
+  /* white-space: nowrap; */
   color: #7c7c7c;
   font-size: 14px;
   font-weight: bold;
@@ -101,10 +101,10 @@ a:hover {
 .content .right .publicationList li a .itemDetail h3 .publicationTitle {
   text-align: left;
   display: inline-block;
-  width: 50%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  width: 100%;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
 }
 .content .right .publicationList li a .itemDetail h3 time {
   float: right;
@@ -137,4 +137,7 @@ a:hover {
   box-shadow: none;
   background: #77bc1f;
   color: #fff;
+}
+#paginator {
+  cursor: pointer;
 }

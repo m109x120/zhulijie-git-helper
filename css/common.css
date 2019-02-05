@@ -11,6 +11,9 @@
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+html,body {
+  font-family: 'Times New Roman';
+}
 /* css */
 * {
   margin: 0;
@@ -20,6 +23,7 @@
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  font-family: 'Times New Roman';
 }
 /*双伪元素清除浮动*/
 .clearfix:after,
