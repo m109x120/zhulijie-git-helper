@@ -12,7 +12,7 @@ $(function() {
       id:'160',
       picUrl:'../images/publicationLists/1.jpg',
       aHref: 'https://pubs.acs.org.ccindex.cn/doi/abs/10.1021/acsami.7b17935',
-      publicationTitle:'.Mengxing Sun, Qiyi Fang, Zhepeng Zhang, Dan Xie,* Yilin Sun, Jianlong Xu, Weiwei Li, Tianling Ren, and Yanfeng Zhang*, All-Inorganic Perovskite Nanowires−InGaZnO Heterojunction for High-Performance Ultraviolet−Visible Photodetectors, ACS Appl. Mater. Interfaces. 2018, 10, 7231−7238. Pub Date: 2018.02.05.',
+      publicationTitle:'Mengxing Sun, Qiyi Fang, Zhepeng Zhang, Dan Xie,* Yilin Sun, Jianlong Xu, Weiwei Li, Tianling Ren, and Yanfeng Zhang*, All-Inorganic Perovskite Nanowires−InGaZnO Heterojunction for High-Performance Ultraviolet−Visible Photodetectors, ACS Appl. Mater. Interfaces. 2018, 10, 7231−7238. Pub Date: 2018.02.05.',
       time:'2018.12.07',
       year: '2018',
       publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
