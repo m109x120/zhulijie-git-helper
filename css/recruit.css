@@ -12,7 +12,7 @@ a{
 .news h2{
   color: #000;
   font-family: "Microsoft Yahei","微软雅黑", "黑体";
-  font-size: 0.22rpx;
+  font-size: 22px;
   font-weight: normal;
   height: 35px;
   line-height: 35px;
@@ -24,7 +24,7 @@ a{
   color: #999;
   padding: 10px 0;
   text-align: center;
-  font-size:0.14rpx;
+  font-size:14px;
 }
 .artInfo a{
 	color: #999;
@@ -40,7 +40,7 @@ a{
 	color:#b60c0c!important;}
 .article{
 	padding:20px;
-	 font-size: 0.16rpx;
+	 font-size: 16px;
   line-height: 23px;
   color:#333;}
 .img-wrap{
@@ -55,7 +55,7 @@ a{
 	  line-height: 20px;
   padding: 6px 0;
   color: #666;
-  font-size: 0.14rpx;
+  font-size: 14px;
   margin: 5px auto;
   display: inline-block;
 }
@@ -89,7 +89,7 @@ a{
     }
 .info{
 	text-align:right;
-  font-size:0.14rpx;
+  font-size:14px;
   padding-top:20px;
   /* padding-bottom:20px; */
 }
