@@ -4,6 +4,10 @@
     margin-top: 61px; 
     background: #fff;
  }
+ html,body {
+     font-size:14px;
+ }
+
  .content .navtitle{
      font-size: 28px;
      height: 50px;
