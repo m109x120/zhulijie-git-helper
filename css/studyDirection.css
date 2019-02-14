@@ -31,6 +31,7 @@ a:hover {
 .content .left .item2 {
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 .content .left .item2 .leftTitle {
   margin-top: 0px;
