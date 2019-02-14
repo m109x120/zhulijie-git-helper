@@ -4,7 +4,7 @@ $(function() {
   getNav(oHeader, 2);
 
   var totalpages = null;
-  // 每一页上面有6条数据
+  // 每一页上面有10条数据
   var everyPage = 10;
   var pubArr = [
     {
