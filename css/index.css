@@ -85,80 +85,57 @@
     opacity: 1;
 }
 /* 轮播图 end */
-
-.research,
-.news{
-    height: 350px;
-    margin-top: 10px;
-    overflow: hidden;
-}
-.research{
-    width: 50%;
-    float: left;
-    border-right: 1px solid #d7d7d7;
-    padding-right: .5%;
-}
-.news{
-    width: 49%;
-    float: right;
-}
-.research .title,
-.news .title{
-    padding: 10px 0;
-}
-.research .title i,
-.news .title i{
-    width: 7px;
-    height: 20px;
-    background: #8a2a36;
-    float: left;
-}
-.research .title span:nth-child(2),
-.news .title span:nth-child(2){    
-    color: #8a2a36;
-    float: left;
-    margin-left: 10px;
-}
-.research .title span:nth-child(3),
-.news .title span:nth-child(3){    
-    color: #e3afb6;
-    float: right;
-}
-.research ul,
-.news ul{
-    margin-top: 18px;
-}
-.research ul li,
-.news ul li{
-    height: 22px;
-    position: relative;
-    margin-bottom: 10px;
-}
-.research ul li i,
-.news ul li i{
-    display: block;
-    border-top: 3px solid transparent;
-    border-left: 4px solid #f33628;
-    border-bottom: 4px solid transparent;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    margin-top: -2px;
-}
-.research ul li a,
-.news ul li a{
-    float: left;
-    margin-left: 10px;
-}
-.research ul li a:hover,
-.news ul li a:hover{
-    color: #8a2a36;
-}   
-
-.research ul li span,
-.news ul li span{
-    float: right;
-}
 img {
   width: 100%;
+}
+/* 新闻通告 */
+.newsAndResearch {
+    display: flex;
+}
+#research {
+    border-right: 2px dashed #ccc;
+    margin-right: 10px;
+}
+#research,
+.news {
+    /* flex:1; */
+    width: 50%;
+}
+.title {
+   border-left: 8px solid #8c0000; 
+   padding-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+#research ul,
+.news ul {
+    height: 300px;
+    overflow: auto;
+}
+#research ul li,
+.news ul li {
+    display: flex;
+    padding-bottom: 10px;
+}
+#research .triangle_border_right {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/home_icon_go_black.png); 
+    background-size: 20px 20px;
+}
+.news ul li a {
+    display: inline-block;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news ul li .triangle_border_right{
+ width: 20px;
+ height: 20px;
+ background-image: url(../images/home_icon_go_black.png); 
+ background-size: 20px 20px;
+}
+.newsAndResearch ul li span {
+    display: block;
 }
