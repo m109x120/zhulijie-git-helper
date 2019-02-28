@@ -3,13 +3,54 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    height:205px;
     background: #fff;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid rgb(66, 57, 57); */
     box-shadow: 0 1px 1px rgba(0,0,0,.04);
     z-index: 9999;
+}
+#header .header_bg{
+    width: 100%;
+    background: url(../images/logo-bg.jpg) center no-repeat;
+    height: 140px;
+    white-space: nowrap;
+    /* border:1px solid #0cf; */
+}
+#header .header-content {
+    width: 100%;
+    margin: 0 auto;
+    /* margin:10px 10px 10px 10px; */
+}
+#header .header_bg .logo_pku{
+    /* display: inline-block; */
+    width: 300px;
+	height: 100px;
+    background: url(../images/logo_pku.png) center no-repeat;
+    float: left;
+    /* border:1px solid #0cf; */
+    margin:10px 20px 10px 10px;
+}
+#header .header_bg .group_name{
+    /* display: inline-block; */
+    width:500px;
+    height:100px;
+    float:left;
+    /* border:1px solid #0cf; */
+    margin: 10px 40px 20px 0px;
+}
+#header .header_bg .group_name > p{
+    font-size:34px;
+    text-shadow:5px 5px 5px black;
+    color:white;
+    font-family: "Comic Sans MS","Microsoft YaHei";
+}
+#header .header_bg .group_name > p1{
+    font-family: "Comic Sans MS";
+    font-size:22px;
+    /* font:70 18x "Comic Sans MS"; */
+    text-shadow:5px 5px 5px black;
+    color:white;
 }
 #header .logo {
     float: left;
@@ -34,6 +75,7 @@
 #header nav {
     width: 1000px;
     margin: auto;
+    height: 60px;
     position: relative;
 }
 .dairy>a:hover .dairy-menu{
@@ -48,15 +90,18 @@
 #nav-list li {
     float: left;
     width: 100px;
+    /* color:#444; */
     text-align: center;
     display: block;
     font-size: 16px;
     margin-right: 15px;
 }
 #nav-list a{
-    display: block;
+    display:block;
     width: 100px;
     height: 60px;
+    color:#444;
+    line-height: 60px;
 }
 #header .sub-menu {
     position: relative;

@@ -9,6 +9,26 @@ $(function() {
   var pubArr = [
     {
       // 按照id进行排序
+      id:'165',
+      picUrl:'../images/publicationLists/1.jpg',
+      aHref: 'https://pubs.acs.org.ccindex.cn/doi/10.1021/acsnano.9b00277',
+      publicationTitle:'Pengfei Yang, Zhepeng Zhang, Mengxing Sun,Feng Lin, Ting Cheng,Jianping Shi,Chunyu Xie,Yuping Shi, Shaolong Jiang,Yahuan Huan,Porun Liu,Feng Ding,Chunyang Xiong,§ Dan Xie*,and Yanfeng Zhang*,†Thickness Tunable Wedding-Cake Like MoS2 Flakes for High Performance Optoelectronics.ACS Nano 2019.DOI: 10.1021/acsnano.9b00277 ',
+      time:'2019.02.20',
+      year: '2019',
+      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
+    },
+    {
+      // 按照id进行排序
+      id:'164',
+      picUrl:'../images/publicationLists/1.jpg',
+      aHref: 'https://pubs.acs.org.ccindex.cn/doi/10.1021/acsnano.8b08677',
+      publicationTitle:'Zhepeng Zhang,†,‡ Yue Gong,§,∥ Xiaolong Zou,⊥ Porun Liu,# Pengfei Yang,†,‡ Jianping Shi,†,‡Liyun Zhao,‡ Qing Zhang,‡ Lin Gu,§,∥ and Yanfeng Zhang*,Epitaxial Growth of Two-Dimensional Metal−Semiconductor Transition-Metal Dichalcogenide Vertical Stacks (VSe2/MX2) and Their Band Alignments.ACSNano 2018.DOI: 10.1021/acsnano.8b08677',
+      time:'2018.12.26',
+      year: '2018',
+      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
+    },
+    {
+      // 按照id进行排序
       id:'160',
       picUrl:'../images/publicationLists/1.jpg',
       aHref: 'https://pubs.acs.org.ccindex.cn/doi/abs/10.1021/acsami.7b17935',

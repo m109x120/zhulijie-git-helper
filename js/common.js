@@ -8,7 +8,18 @@
 */
 
 function getNav(obj,id){
-    obj.html('<nav class="wrapper clearfix">\n' +
+    obj.html('<div class="header_bg">'+
+            '    <div class="logo_pku"></div>'+
+            '    <div class="group_name">'+
+            '        <p>'+
+            '        <i>北京大学工学院张艳锋课题组</i>'+
+            '        </p>'+
+            '        <p1>'+
+            "            <i>Yanfeng Zhang's Group of Peking uinversity</i>"+
+            '        </p1>'+
+            '    </div>'+
+            '</div>'+
+            '<nav class="wrapper clearfix">\n' +
             '    <h1 class="logo">\n' +
             '      <a href="index.html"><span>个人博客</span><canvas id = "myHeart" width="60" height="60"></canvas></a>\n' +
             '    </h1>\n' +
