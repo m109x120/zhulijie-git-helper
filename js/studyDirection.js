@@ -21,8 +21,38 @@ $(function() {
       // 按照id进行排序
       id:'164',
       picUrl:'../images/publicationLists/1.jpg',
+      aHref: 'https://onlinelibrary.wiley.com/doi/pdf/10.1002/aelm.201800580',
+      publicationTitle:'Mengxingsun, Pengfei Yang, Dan Xie, Yilin Sun, Jianlong Xu, Tianling Ren,Yanfeng Zhang,Self‐Powered MoS 2 –PDPP3T Heterotransistor‐Based Broadband Photodetectors,Advanced Electronic Materials, 2019,5,1800580',
+      time:'2018.12.26',
+      year: '2019',
+      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
+    },
+    {
+      // 按照id进行排序
+      id:'163',
+      picUrl:'../images/publicationLists/1.jpg',
+      aHref: 'https://iopscience.iop.org/article/10.1088/1361-6528/aaff19/meta',
+      publicationTitle:'Zhepeng Zhang, Pengfei Yang, Min Hong, Shaolong Jiang, Guanchao Zhao, Jianping Shi, Qin Xie and Yanfeng Zhang,Recent progress in the controlled synthesis of 2D metallic transition metal dichalcogenides,Nanotechnology 30 (2019) 182002',
+      time:'2018.12.26',
+      year: '2018',
+      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
+    },
+    {
+      // 按照id进行排序
+      id:'162',
+      picUrl:'../images/publicationLists/1.jpg',
+      aHref: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/ente.201801025',
+      publicationTitle:'Yahuan Huan,Jianping Shi,Guanchao Zhao,Xiaoqin Yan,*and Yanfeng Zhang*,Two-dimensional Metallic Transitional Metal Dichalcogenides for Electrochemical Hydrogen Evolution,Energy Techonology,10.1002/ente.201801025',
+      time:'2018.12.26',
+      year: '2018',
+      publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
+    },
+    {
+      // 按照id进行排序
+      id:'161',
+      picUrl:'../images/publicationLists/1.jpg',
       aHref: 'https://pubs.acs.org.ccindex.cn/doi/10.1021/acsnano.8b08677',
-      publicationTitle:'Zhepeng Zhang,†,‡ Yue Gong,§,∥ Xiaolong Zou,⊥ Porun Liu,# Pengfei Yang,†,‡ Jianping Shi,†,‡Liyun Zhao,‡ Qing Zhang,‡ Lin Gu,§,∥ and Yanfeng Zhang*,Epitaxial Growth of Two-Dimensional Metal−Semiconductor Transition-Metal Dichalcogenide Vertical Stacks (VSe2/MX2) and Their Band Alignments.ACSNano 2018.DOI: 10.1021/acsnano.8b08677',
+      publicationTitle:'Zhepeng Zhang, Yue Gong, Xiaolong Zou, Porun Liu, Pengfei Yang, Jianping Shi, Liyun Zhao, Qing Zhang, Lin Gu, and Yanfeng Zhang ,Epitaxial Growth of Two-Dimensional Metal−Semiconductor Transition-Metal Dichalcogenide Vertical Stacks (VSe2/MX2) and Their Band Alignments.ACSNano 2018.DOI: 10.1021/acsnano.8b08677',
       time:'2018.12.26',
       year: '2018',
       publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
@@ -32,7 +62,7 @@ $(function() {
       id:'160',
       picUrl:'../images/publicationLists/1.jpg',
       aHref: 'https://pubs.acs.org.ccindex.cn/doi/abs/10.1021/acsami.7b17935',
-      publicationTitle:'Mengxing Sun, Qiyi Fang, Zhepeng Zhang, Dan Xie,* Yilin Sun, Jianlong Xu, Weiwei Li, Tianling Ren, and Yanfeng Zhang*, All-Inorganic Perovskite Nanowires−InGaZnO Heterojunction for High-Performance Ultraviolet−Visible Photodetectors, ACS Appl. Mater. Interfaces. 2018, 10, 7231−7238. Pub Date: 2018.02.05.',
+      publicationTitle:'Mengxing Sun, Qiyi Fang, Zhepeng Zhang, Dan Xie,* Yilin Sun, Jianlong Xu, Weiwei Li, Tianling Ren, and Yanfeng Zhang*, All-Inorganic Perovskite Nanowires−InGaZnO Heterojunction for High-Performance Ultraviolet−Visible Photodetectors, ACS Appl. Mater. Interfaces. 2018, 10, 7231−7238.',
       time:'2018.12.07',
       year: '2018',
       publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
@@ -42,7 +72,7 @@ $(function() {
       id:'159',
       picUrl:'../images/publicationLists/1.jpg',
       aHref: 'http://iopscience.iop.org/article/10.1088/1361-6528/aab3a4/meta',
-      publicationTitle:'Shaolong Jiang, Liyun Zhao, Yuping Shi, Chunyu Xie, Na Zhang, Zhepeng Zhang, Yahuan Huan, Pengfei Yang, Min Hong, Xiebo Zhou, Jianping Shi, Qing Zhang* and Yanfeng Zhang*, Temperature-dependent Raman spectroscopy studies of the interface coupling effect of monolayer ReSe2 single crystals on Au foils, Nanotechnology 2018, 29, 204003(1-8). Pub. Date: 2018.03.02.',
+      publicationTitle:'Shaolong Jiang, Liyun Zhao, Yuping Shi, Chunyu Xie, Na Zhang, Zhepeng Zhang, Yahuan Huan, Pengfei Yang, Min Hong, Xiebo Zhou, Jianping Shi, Qing Zhang* and Yanfeng Zhang*, Temperature-dependent Raman spectroscopy studies of the interface coupling effect of monolayer ReSe2 single crystals on Au foils, Nanotechnology 2018, 29, 204003(1-8).',
       time:'2018.12.07',
       year: '2018',
       publicationPro:'A Versatile and Robust Approach to Stimuli-Responsive Protein Multilayers with Biologically Enabled Unique Functions. '
