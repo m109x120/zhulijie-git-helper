@@ -124,10 +124,10 @@ img {
 }
 .news ul li a {
     display: inline-block;
-    width: 400px;
-    white-space: nowrap;
+    width: 390px;
+    /* white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
 }
 .news ul li .triangle_border_right{
  width: 20px;

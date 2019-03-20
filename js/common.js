@@ -9,6 +9,7 @@
 
 function getNav(obj,id){
     obj.html('<div class="header_bg">'+
+            '<div class="bgWrapper ">'+
             '    <div class="logo_pku"></div>'+
             '    <div class="group_name">'+
             '        <p>'+
@@ -19,9 +20,10 @@ function getNav(obj,id){
             '        </p1>'+
             '    </div>'+
             '</div>'+
+            '</div>'+
             '<nav class="wrapper clearfix">\n' +
             '    <h1 class="logo">\n' +
-            '      <a href="index.html"><span>个人博客</span><canvas id = "myHeart" width="60" height="60"></canvas></a>\n' +
+            '      <a href="index.html"></a>\n' +
             '    </h1>\n' +
             '    <ul id="nav-list" class="clearfix">\n' +
             '      <li class="nav-router"><a href="index.html">首页</a></li>\n' +

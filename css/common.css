@@ -109,3 +109,12 @@ footer {
 footer .footerPaddingRight {
   margin-right: 40px;
 }
+.bgWrapper {
+  width: 80%;
+  height:140px;
+  
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
