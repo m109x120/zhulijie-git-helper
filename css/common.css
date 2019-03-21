@@ -5,6 +5,7 @@
 }
 .iconfont {
   font-family: "iconfont" !important;
+  /* font-family: 'Times New Roman', Times, serif; */
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -53,6 +54,7 @@ img {
 ul,
 li {
   list-style: none;
+  /* font-family: 'Times New Roman', Times, serif;x尝试修改字体 */
 }
 /*a的默认样式的设定*/
 a {

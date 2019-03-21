@@ -124,7 +124,9 @@ img {
 }
 .news ul li a {
     display: inline-block;
-    width: 390px;
+    width: 460px;/*之前是390*/
+    font-size: 14px;
+    /* font-family: 'Times New Roman', Times, serif; */
     /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
