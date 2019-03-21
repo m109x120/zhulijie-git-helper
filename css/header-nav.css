@@ -78,9 +78,11 @@
     opacity: 1;
 }
 #nav-list {
-    float: left;
-    margin-left: 50px;
+    /* float: left; */
+    /* margin-left: 50px; */
     background: url(../images/spirit.png) 0px 0px no-repeat;
+    width: 690px;
+    margin: 0 auto;
 }
 #nav-list li {
     float: left;

@@ -124,16 +124,18 @@ img {
 }
 .news ul li a {
     display: inline-block;
-    width: 390px;
+    /* width: 458px; */
     /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
 }
 .news ul li .triangle_border_right{
- width: 20px;
+ width: 6px;
  height: 20px;
+ padding: 10px;
  background-image: url(../images/home_icon_go_black.png); 
  background-size: 20px 20px;
+ background-repeat: no-repeat; 
 }
 .newsAndResearch ul li span {
     display: block;
