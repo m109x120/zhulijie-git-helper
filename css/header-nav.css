@@ -15,6 +15,7 @@
     /* background: url(../images/fw_bg.jpg) center no-repeat; */
     height: 140px;
     background-color: #8f000b; 
+    /* background-color: #cf4053;  */
     /* border:1px solid #0cf; */
 }
 #header .header-content {
@@ -26,7 +27,7 @@
     /* display: inline-block; */
     width: 80px;
 	  height: 100px;
-    background: url(../images/logo_pku-1.png) center no-repeat;
+    background: url(../images/pkulogo_white.png) center no-repeat;
     margin-right: 30px;
 }
 #header .header_bg .group_name{
