@@ -1,7 +1,7 @@
 $(function() {
 	//菜单初始化开始
   var oHeader = $('#header');
-  getNav(oHeader, 2);
+  getNav(oHeader, 1);
 
   var totalpages = null;
   // 每一页上面有10条数据

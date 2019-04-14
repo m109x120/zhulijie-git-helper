@@ -39,6 +39,7 @@
     color:white;
     font-family: "Comic Sans MS","Microsoft YaHei";
     white-space: nowrap;
+    margin: 0;
 }
 #header .header_bg .group_name > p1{
     font-family: "Comic Sans MS";
