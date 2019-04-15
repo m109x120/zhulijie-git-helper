@@ -4,8 +4,8 @@ $(function() {
   getNav(oHeader, 1);
 
   var totalpages = null;
-  // 每一页上面有10条数据
-  var everyPage = 10;
+  // 每一页上面有20条数据
+  var everyPage = 20;
   var pubArr = [
     {
       // 按照id进行排序
